@@ -1,0 +1,36 @@
+button {
+    border: none;
+    background: #262626;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover > i.fa {
+    color: #F3D3BD;
+}
+button > i.fa {
+    font-size: 2em;
+    color: #fff;
+    background: #262626;
+}
+.show-more {
+    border: 1px solid #fff;
+    padding: 18px 25px;
+    font-size: 0.8em;
+    margin: 7vh 0;
+}
+.switch-unit {
+    margin-top: 2vh;
+    color: #aaa;
+    transition: 0.3s;
+}
+@media screen and (min-width:768px) {
+    .show-more:hover {
+        border: 1px solid #F3D3BD;
+        color: #F3D3BD;
+    }
+    .switch-unit:hover {
+        color: #FEFFA5;
+    }
+}

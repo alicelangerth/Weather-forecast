@@ -1,0 +1,20 @@
+.about {
+    line-height: 1.7em;
+    margin-top: 5vh;
+}
+
+.about > h3 {
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+.about > p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.about > i {
+    font-size: 6em;
+    color: #FEFFA5;
+    margin: 5vh 0;
+}

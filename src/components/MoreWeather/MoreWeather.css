@@ -1,0 +1,36 @@
+.weather-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #aaa;
+    padding: 10px 0;
+}
+.time {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.weather-list > .icon {
+    width: 40px;
+    margin-left: 20px;
+}
+.weather-list > .icon > img {
+    width: 40px;
+}
+.weather-list > .degrees, .weather-list > .description {
+    font-size: 1em;
+    margin: 0;
+    padding: 0 20px;
+}
+@media screen and (min-width:768px) {
+    .weather-list {
+        width: 40%;
+    }
+    .time {
+        font-size: 1.3em; 
+    }
+    .weather-list > .degrees, .weather-list > .description {
+        font-size: 1.1em;
+    }
+}

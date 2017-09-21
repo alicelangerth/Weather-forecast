@@ -1,0 +1,31 @@
+.description {
+    font-size: 2.2em;
+    margin: 0;
+    letter-spacing: 1.7px;
+    font-weight: 300;
+}
+.wrapper {
+    width: 90%;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+}
+.degrees {
+    color: #FEFFA5;
+    font-size: 2.7em;
+    margin: 2vh 0 0 0;
+}
+
+@media screen and (min-width:768px) {
+    .wrapper {
+        width: 50%;
+    }
+    .description {
+        font-size: 3em;
+    }
+    .degrees {
+        font-size: 3.3em;
+    }
+}
